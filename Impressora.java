@@ -15,4 +15,16 @@ public class Impressora{
     System.out.println(s + ", " + l);
     return;
   }
+
+  public void testeForEach(){
+    int [] v = new int[]{1, 2, 3, 3};
+
+    for (int i = 0; i < v.length; i++){
+      System.out.println(v[i]);
+    }
+
+    for (int valor : v){
+      System.out.println(valor);
+    }
+  }
 }
